@@ -1,0 +1,1 @@
+docker run --init --name prometheus-pve-exporter -d -p 9221:9221 -v D:\repo\prometheus-01\pve-exporter\pve.yml:/etc/prometheus/pve.yml prompve/prometheus-pve-exporter

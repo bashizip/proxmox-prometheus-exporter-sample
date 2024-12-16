@@ -1,0 +1,1 @@
+docker run -d --hostname prometheus --name prometheus-01 -e TZ=UTC+1 -p 9090:9090 -v D:\repo\prometheus-01\prometheus.yml:/etc/prometheus/prometheus.yml -v D:\repo\prometheus-01\alerts.yml:/etc/prometheus/alerts.yml ubuntu/prometheus:latest 

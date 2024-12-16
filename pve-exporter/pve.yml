@@ -1,0 +1,5 @@
+default:
+    user: promethee@pam
+    token_name: "monitoring"
+    token_value: "43f6ee7d-9e11-4972-aa16-dfabf5fcbdff"
+    verify_ssl: false

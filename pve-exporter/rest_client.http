@@ -1,0 +1,8 @@
+GET https://192.168.1.76:8006/api2/json/version
+content-type: application/json
+Authorization: PVEAPIToken=promethee@pam!monitoring=43f6ee7d-9e11-4972-aa16-dfabf5fcbdff
+
+
+###
+GET http://127.0.0.1:9221/pve?module=default&target=192.168.1.76
+
